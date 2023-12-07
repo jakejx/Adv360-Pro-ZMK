@@ -39,7 +39,7 @@
         go_eq: go_eq {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp COLON &kp EQUAL>;
+            bindings = <&none &kp COLON &kp EQUAL &kp SPACE>;
             label = "GO_EQ";
         };
     };
