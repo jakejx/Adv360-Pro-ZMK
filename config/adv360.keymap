@@ -64,11 +64,11 @@
 
         layers_symbols {
             bindings = <
-&kp EQUAL  &kp N1    &kp N2      &kp N3                &kp N4                 &kp N5     &trans                                                    &mo 3   &trans     &trans     &trans     &trans     &trans  &kp MINUS
-&kp TAB    &kp EXCL  &kp AT      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE   &none                                                     &none   &trans     &trans     &trans     &trans     &trans  &kp BSLH
-&kp ESC    &kp AMPS  &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS   &none      &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none   &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans  &kp SQT
-&kp LSHFT  &kp HASH  &kp CARET   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp TILDE                        &kp HOME      &kp PG_UP                     &kp UNDER  &kp MINUS  &kp EQUAL  &go_eq     &trans  &kp RSHFT
-&mo 2      &trans    &kp CAPS    &trans                &trans                            &kp UNDER  &kp MINUS  &kp END       &kp PG_DN  &trans     &trans             &trans     &trans     &trans     &trans  &mo 2
+&kp EQUAL  &kp N1    &kp N2      &kp N3                &kp N4                 &kp N5     &trans                                                       &mo 3   &trans     &trans     &trans     &trans     &trans  &kp MINUS
+&kp TAB    &kp EXCL  &kp AT      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS  &kp SLASH                                                    &none   &trans     &trans     &trans     &trans     &trans  &kp BSLH
+&kp ESC    &kp AMPS  &kp DOLLAR  &kp UNDERSCORE        &kp EQUAL              &kp PLUS   &kp ASTERISK  &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none   &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans  &kp SQT
+&kp LSHFT  &kp HASH  &kp CARET   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE                            &kp HOME      &kp PG_UP                     &kp UNDER  &kp MINUS  &kp EQUAL  &go_eq     &trans  &kp RSHFT
+&mo 2      &trans    &kp CAPS    &kp LEFT_BRACKET      &kp RIGHT_BRACKET                 &kp UNDER     &kp MINUS  &kp END       &kp PG_DN  &trans     &trans             &trans     &trans     &trans     &trans  &mo 2
             >;
         };
 
