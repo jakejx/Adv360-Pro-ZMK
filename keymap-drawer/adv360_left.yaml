@@ -308,10 +308,10 @@ layers:
   - ''
   - ''
 combos:
-- p: [41, 42]
+- p: [17, 18]
   k: (
   l: [default]
-- p: [42, 43]
+- p: [23, 24]
   k: )
   l: [default]
 - p: [31, 32]
@@ -319,4 +319,18 @@ combos:
   l: [default]
 - p: [31, 30]
   k: '-'
+  l: [default]
+- p: [56, 57]
+  k: ENTER
+- p: [17, 16]
+  k: '{'
+  l: [default]
+- p: [24, 25]
+  k: '}'
+  l: [default]
+- p: [19, 18]
+  k: '['
+  l: [default]
+- p: [22, 23]
+  k: ']'
   l: [default]
