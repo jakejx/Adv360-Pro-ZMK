@@ -162,7 +162,7 @@
 &kp TAB     &kp EXCL  &kp AT      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS  &kp SLASH                                                    &none   &trans     &trans     &trans     &trans     &trans  &kp BSLH
 &kp ESC     &kp AMPS  &kp DOLLAR  &kp UNDERSCORE        &kp EQUAL              &kp PLUS   &kp ASTERISK  &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none   &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans  &kp SQT
 &sk LSHIFT  &kp HASH  &kp CARET   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE                            &kp HOME      &kp PG_UP                     &kp UNDER  &kp MINUS  &kp EQUAL  &go_eq     &trans  &sk RSHIFT
-&mo 2       &trans    &kp CAPS    &kp LEFT_BRACKET      &kp RIGHT_BRACKET                 &kp UNDER     &kp MINUS  &kp END       &kp PG_DN  &trans     &trans             &trans     &trans     &trans     &trans  &mo 2
+&mo 2       &trans    &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET                 &kp UNDER     &kp MINUS  &kp END       &kp PG_DN  &trans     &trans             &trans     &trans     &trans     &trans  &mo 2
             >;
         };
 
