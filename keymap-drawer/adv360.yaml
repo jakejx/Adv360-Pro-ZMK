@@ -1,0 +1,323 @@
+layout: {qmk_keyboard: adv360}
+layers:
+  default:
+  - ESCAPE
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - PLAY
+  - mod
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - '-'
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - PREV
+  - VOL UP
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - \
+  - LEFT CONTROL
+  - A
+  - S
+  - D
+  - F
+  - G
+  - NEXT
+  - LG(LS(LEFT BRACKET))
+  - LG(LS(RIGHT BRACKET))
+  - LC(LA(SPACE))
+  - LA(SPACE)
+  - VOL DN
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, h: LCTRL}
+  - ''''
+  - {t: LEFT SHIFT, h: sticky}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - HOME
+  - PG UP
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: RSHFT, h: sticky}
+  - layers_symbols
+  - layers_symbols
+  - '`'
+  - LALT
+  - LGUI
+  - SPACE
+  - ENTER
+  - END
+  - PG DN
+  - BACKSPACE
+  - layers_symbols
+  - LEFT
+  - DOWN
+  - UP
+  - DOWN
+  - fn
+  layers_symbols:
+  - '='
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - {t: ▽, type: trans}
+  - mod
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '-'
+  - TAB
+  - '!'
+  - '@'
+  - '{'
+  - '}'
+  - '-'
+  - /
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - \
+  - ESC
+  - '&'
+  - $
+  - _
+  - '='
+  - +
+  - '*'
+  - LCTRL
+  - LALT
+  - LGUI
+  - RCTRL
+  - ''
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - {t: ▽, type: trans}
+  - ''''
+  - {t: LSHIFT, h: sticky}
+  - '#'
+  - ^
+  - (
+  - )
+  - '|'
+  - HOME
+  - PG UP
+  - _
+  - '-'
+  - '='
+  - '&go_eq'
+  - {t: ▽, type: trans}
+  - {t: RSHIFT, h: sticky}
+  - {t: fn, type: held}
+  - {t: ▽, type: trans}
+  - CAPS
+  - '['
+  - ']'
+  - _
+  - '-'
+  - END
+  - PG DN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - fn
+  fn:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - {t: layers_symbols, h: toggle}
+  - mod
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  mod:
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&bootloader'
+  - '&bootloader'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - ''
+  - RGB MEFS CMD 5
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&bl BL_TOG'
+  - RGB TOG
+  - '&bl BL_INC'
+  - '&bl BL_DEC'
+  - ''
+  - ''
+  - ''
+combos:
+- p: [41, 42]
+  k: (
+  l: [default]
+- p: [42, 43]
+  k: )
+  l: [default]
+- p: [31, 32]
+  k: '='
+  l: [default]
+- p: [31, 30]
+  k: '-'
+  l: [default]
