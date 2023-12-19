@@ -72,6 +72,13 @@
             require-prior-idle-ms = <150>;
             layers = <0>;
         };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <31 30>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
     };
 
     keymap {
