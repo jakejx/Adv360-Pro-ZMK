@@ -49,6 +49,31 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        lpar {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <41 42>;
+            layers = <0>;
+            require-prior-idle-ms = <150>;
+        };
+
+        rpar {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <42 43>;
+            layers = <0>;
+            require-prior-idle-ms = <150>;
+        };
+
+        eql {
+            bindings = <&kp EQUAL>;
+            key-positions = <31 32>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
