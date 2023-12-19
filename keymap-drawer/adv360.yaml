@@ -70,7 +70,7 @@ layers:
   - ENTER
   - END
   - PG DN
-  - BACKSPACE
+  - {t: BACKSPACE, h: LA(BACKSPACE)}
   - layers_symbols
   - LEFT
   - DOWN
