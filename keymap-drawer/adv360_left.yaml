@@ -46,7 +46,7 @@ layers:
   - L
   - {t: ;, h: LCTRL}
   - ''''
-  - {t: LEFT SHIFT, h: sticky}
+  - '&caps_shift'
   - Z
   - X
   - C
@@ -59,7 +59,7 @@ layers:
   - ','
   - .
   - /
-  - {t: RSHFT, h: sticky}
+  - '&caps_shift'
   - layers_symbols
   - layers_symbols
   - '`'
