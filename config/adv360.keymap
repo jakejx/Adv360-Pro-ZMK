@@ -38,6 +38,15 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+
+        caps_shift: caps_shift {
+            compatible = "zmk,behavior-tap-dance";
+            label = "CAPS_SHIFT";
+            #binding-cells = <0>;
+            bindings = <&sk LSHIFT>, <&caps_word>;
+
+            tapping-term-ms = <100>;
+        };
     };
 
     macros {
@@ -89,7 +98,7 @@
 &kp ESCAPE        &kp N1  &kp N2     &kp N3    &kp N4    &kp N5  &kp C_PLAY                                                                                             &mo 3         &kp N6  &kp N7    &kp N8     &kp N9   &kp N0          &kp MINUS
 &kp TAB           &kp Q   &kp W      &kp E     &kp R     &kp T   &kp C_PREV                                                                                             &kp C_VOL_UP  &kp Y   &kp U     &kp I      &kp O    &kp P           &kp BSLH
 &kp LEFT_CONTROL  &kp A   &kp S      &kp D     &kp F     &kp G   &kp C_NEXT  &kp LG(LS(LEFT_BRACKET))  &kp LG(LS(RIGHT_BRACKET))      &kp LC(LA(SPACE))  &kp LA(SPACE)  &kp C_VOL_DN  &kp H   &kp J     &kp K      &kp L    &mt LCTRL SEMI  &kp SINGLE_QUOTE
-&sk LEFT_SHIFT    &kp Z   &kp X      &kp C     &kp V     &kp B                                         &kp HOME                       &kp PG_UP                                       &kp N   &kp M     &kp COMMA  &kp DOT  &kp FSLH        &sk RSHFT
+&caps_shift       &kp Z   &kp X      &kp C     &kp V     &kp B                                         &kp HOME                       &kp PG_UP                                       &kp N   &kp M     &kp COMMA  &kp DOT  &kp FSLH        &caps_shift
 &mo 1             &mo 1   &kp GRAVE  &kp LALT  &kp LGUI          &kp SPACE   &kp ENTER                 &kp END                        &kp PG_DN          &kp BACKSPACE  &mo 1                 &kp LEFT  &kp DOWN   &kp UP   &kp DOWN        &mo 2
             >;
         };
