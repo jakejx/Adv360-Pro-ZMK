@@ -152,7 +152,7 @@
 &kp TAB           &kp Q   &kp W      &kp E     &kp R     &kp T   &kp C_PREV                                                                                                                  &kp C_VOL_UP  &kp Y   &kp U     &kp I      &kp O    &kp P           &kp BSLH
 &kp LEFT_CONTROL  &kp A   &kp S      &kp D     &kp F     &kp G   &kp C_NEXT  &kp LG(LS(LEFT_BRACKET))  &kp LG(LS(RIGHT_BRACKET))      &kp LC(LA(SPACE))  &kp LA(SPACE)                       &kp C_VOL_DN  &kp H   &kp J     &kp K      &kp L    &mt LCTRL SEMI  &kp SINGLE_QUOTE
 &caps_shift       &kp Z   &kp X      &kp C     &kp V     &kp B                                         &kp HOME                       &kp PG_UP                                                            &kp N   &kp M     &kp COMMA  &kp DOT  &kp FSLH        &caps_shift
-&mo 1             &mo 1   &kp GRAVE  &kp LALT  &kp LGUI          &kp SPACE   &kp ENTER                 &kp END                        &kp PG_DN          &word_bspc LA(BACKSPACE) BACKSPACE  &mo 1                 &kp LEFT  &kp DOWN   &kp UP   &kp DOWN        &mo 2
+&mo 1             &mo 1   &kp GRAVE  &kp LALT  &kp LGUI          &kp SPACE   &kp ENTER                 &kp END                        &kp PG_DN          &word_bspc BACKSPACE LA(BACKSPACE)  &mo 1                 &kp LEFT  &kp DOWN   &kp UP   &kp DOWN        &mo 2
             >;
         };
 
