@@ -52,7 +52,7 @@ layers:
   - C
   - V
   - B
-  - HOME
+  - LS(LA(LC(LG(S))))
   - PG UP
   - N
   - M
@@ -67,7 +67,7 @@ layers:
   - LGUI
   - SPACE
   - ENTER
-  - END
+  - LS(LA(LC(LG(SPACE))))
   - PG DN
   - BACKSPACE
   - layers_symbols
