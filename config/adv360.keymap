@@ -47,7 +47,7 @@
             #binding-cells = <0>;
             bindings = <&kp LSHIFT>, <&caps_word>;
 
-            tapping-term-ms = <100>;
+            tapping-term-ms = <200>;
         };
 
         word_bspc: word_bspc {
