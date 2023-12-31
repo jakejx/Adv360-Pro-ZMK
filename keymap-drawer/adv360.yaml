@@ -109,8 +109,8 @@ layers:
   - ESC
   - '&'
   - $
-  - _
-  - '='
+  - (
+  - )
   - +
   - '*'
   - LCTRL
@@ -127,8 +127,8 @@ layers:
   - {t: LSHIFT, h: sticky}
   - '#'
   - ^
-  - (
-  - )
+  - '['
+  - ']'
   - '|'
   - HOME
   - PG UP
@@ -141,8 +141,8 @@ layers:
   - fn
   - {type: held}
   - {t: ▽, type: trans}
-  - '['
-  - ']'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - _
   - '-'
   - END
