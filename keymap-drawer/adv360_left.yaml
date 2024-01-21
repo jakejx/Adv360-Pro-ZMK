@@ -46,7 +46,7 @@ layers:
   - L
   - {t: ;, h: LCTRL}
   - ''''
-  - '&caps_shift'
+  - {t: LSHFT, h: sticky}
   - Z
   - X
   - C
@@ -59,7 +59,7 @@ layers:
   - ','
   - .
   - /
-  - '&caps_shift'
+  - {t: LSHFT, h: sticky}
   - LS(LA(LC(LGUI)))
   - layers_symbols
   - '`'
