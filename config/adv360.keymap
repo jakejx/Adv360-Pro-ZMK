@@ -58,6 +58,24 @@
             tapping-term-ms = <150>;
             flavor = "tap-preferred";
         };
+
+        lpar: lpar {
+            compatible = "zmk,behavior-mod-morph";
+            label = "LPAR";
+            bindings = <&kp LEFT_PARENTHESIS>, <&kp LESS_THAN>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+
+        rpar: rpar {
+            compatible = "zmk,behavior-mod-morph";
+            label = "RPAR";
+            bindings = <&kp RIGHT_PARENTHESIS>, <&kp GREATER_THAN>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
     };
 
     macros {
@@ -73,16 +91,16 @@
         compatible = "zmk,combos";
 
         lpar {
-            bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <17 18>;
+            bindings = <&lpar>;
+            key-positions = <41 42>;
             layers = <0>;
             require-prior-idle-ms = <150>;
             timeout-ms = <COMBO_TERM_FAST>;
         };
 
         rpar {
-            bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <23 24>;
+            bindings = <&rpar>;
+            key-positions = <42 43>;
             layers = <0>;
             require-prior-idle-ms = <150>;
             timeout-ms = <COMBO_TERM_FAST>;
@@ -129,7 +147,7 @@
 
         lbkt {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <19 18>;
+            key-positions = <23 24>;
             require-prior-idle-ms = <150>;
             layers = <0>;
             timeout-ms = <COMBO_TERM_FAST>;
@@ -137,7 +155,7 @@
 
         rbkt {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <22 23>;
+            key-positions = <25 24>;
             require-prior-idle-ms = <150>;
             layers = <0>;
             timeout-ms = <COMBO_TERM_FAST>;
@@ -148,6 +166,21 @@
             key-positions = <30 29>;
             require-prior-idle-ms = <150>;
             layers = <0>;
+        };
+
+        copy {
+            bindings = <&kp LG(C)>;
+            key-positions = <48 49>;
+        };
+
+        paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <49 50>;
+        };
+
+        undo {
+            bindings = <&kp LG(Z)>;
+            key-positions = <47 48>;
         };
     };
 
