@@ -322,12 +322,6 @@ combos:
   l: [default]
 - p: [56, 57]
   k: ENTER
-- p: [17, 16]
-  k: '{'
-  l: [default]
-- p: [24, 25]
-  k: '}'
-  l: [default]
 - p: [23, 24]
   k: '['
   l: [default]
