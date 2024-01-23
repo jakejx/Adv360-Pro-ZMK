@@ -129,22 +129,6 @@
             timeout-ms = <COMBO_TERM_SLOW>;
         };
 
-        lbrace {
-            bindings = <&kp LEFT_BRACE>;
-            key-positions = <17 16>;
-            require-prior-idle-ms = <150>;
-            layers = <0>;
-            timeout-ms = <COMBO_TERM_FAST>;
-        };
-
-        rbrace {
-            bindings = <&kp RIGHT_BRACE>;
-            key-positions = <24 25>;
-            require-prior-idle-ms = <150>;
-            layers = <0>;
-            timeout-ms = <COMBO_TERM_FAST>;
-        };
-
         lbkt {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <23 24>;
