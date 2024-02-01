@@ -23,7 +23,10 @@
     tapping-term-ms = <180>;
 };
 
-&lt { flavor = "balanced"; };
+&lt {
+    flavor = "balanced";
+    quick-tap-ms = <200>;
+};
 
 / {
     behaviors {
