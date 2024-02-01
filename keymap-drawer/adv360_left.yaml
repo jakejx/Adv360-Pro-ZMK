@@ -69,7 +69,7 @@ layers:
   - ENTER
   - LS(LA(LC(LG(SPACE))))
   - PG DN
-  - BACKSPACE
+  - {t: BACKSPACE, h: fn}
   - layers_symbols
   - LEFT
   - DOWN
@@ -77,12 +77,12 @@ layers:
   - DOWN
   - LC(LA(LSHFT))
   layers_symbols:
-  - '='
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - mod
   - {t: ▽, type: trans}
@@ -90,12 +90,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '-'
-  - TAB
-  - '!'
-  - '@'
-  - '{'
-  - '}'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&'
+  - '*'
+  - (
   - '-'
   - /
   - ''
@@ -104,12 +104,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - \
-  - ESC
-  - '&'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - $
-  - (
-  - )
+  - '%'
+  - ^
   - +
   - '*'
   - LCTRL
@@ -122,12 +122,12 @@ layers:
   - UP
   - RIGHT
   - {t: ▽, type: trans}
-  - ''''
-  - {t: LSHIFT, h: sticky}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '!'
+  - '@'
   - '#'
-  - ^
-  - '['
-  - ']'
   - '|'
   - HOME
   - PG UP
@@ -136,7 +136,7 @@ layers:
   - '='
   - '&go_eq'
   - {t: ▽, type: trans}
-  - {t: RSHIFT, h: sticky}
+  - {t: ▽, type: trans}
   - fn
   - {type: held}
   - {t: ▽, type: trans}
@@ -169,33 +169,42 @@ layers:
   - F11
   - F12
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F12
+  - F7
+  - F8
+  - F9
   - {t: ▽, type: trans}
   - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F11
+  - F4
+  - F5
+  - F6
+  - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F10
+  - F1
+  - F2
+  - F3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -215,15 +224,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -337,3 +337,5 @@ combos:
   k: LG(V)
 - p: [47, 48]
   k: LG(Z)
+- p: [56, 55]
+  k: BACKSPACE
