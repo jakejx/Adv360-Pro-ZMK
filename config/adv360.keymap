@@ -97,14 +97,14 @@
             bindings = <&rpar>;
             key-positions = <42 43>;
             layers = <0>;
-            require-prior-idle-ms = <IDLE>;
+            require-prior-idle-ms = <COMBO_IDLE>;
             timeout-ms = <COMBO_TERM_FAST>;
         };
 
         eql {
             bindings = <&kp EQUAL>;
             key-positions = <31 32>;
-            require-prior-idle-ms = <IDLE>;
+            require-prior-idle-ms = <COMBO_IDLE>;
             layers = <0>;
             timeout-ms = <COMBO_TERM_FAST>;
         };
@@ -112,7 +112,7 @@
         minus {
             bindings = <&kp MINUS>;
             key-positions = <31 30>;
-            require-prior-idle-ms = <IDLE>;
+            require-prior-idle-ms = <COMBO_IDLE>;
             layers = <0>;
             timeout-ms = <COMBO_TERM_FAST>;
         };
@@ -120,14 +120,14 @@
         enter {
             bindings = <&kp ENTER>;
             key-positions = <56 57>;
-            require-prior-idle-ms = <IDLE>;
+            require-prior-idle-ms = <COMBO_IDLE>;
             timeout-ms = <COMBO_TERM_SLOW>;
         };
 
         lbkt {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <23 24>;
-            require-prior-idle-ms = <IDLE>;
+            require-prior-idle-ms = <COMBO_IDLE>;
             layers = <0>;
             timeout-ms = <COMBO_TERM_FAST>;
         };
@@ -135,7 +135,7 @@
         rbkt {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <25 24>;
-            require-prior-idle-ms = <IDLE>;
+            require-prior-idle-ms = <COMBO_IDLE>;
             layers = <0>;
             timeout-ms = <COMBO_TERM_FAST>;
         };
@@ -143,7 +143,7 @@
         underscore {
             bindings = <&kp UNDERSCORE>;
             key-positions = <30 29>;
-            require-prior-idle-ms = <IDLE>;
+            require-prior-idle-ms = <COMBO_IDLE>;
             layers = <0>;
         };
 
@@ -166,7 +166,7 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <56 55>;
             timeout-ms = <COMBO_TERM_SLOW>;
-            require-prior-idle-ms = <IDLE>;
+            require-prior-idle-ms = <COMBO_IDLE>;
         };
     };
 
