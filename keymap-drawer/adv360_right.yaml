@@ -410,9 +410,12 @@ combos:
   l: [default]
 - p: [48, 49]
   k: LG(C)
+  l: [default]
 - p: [49, 50]
   k: LG(V)
+  l: [default]
 - p: [47, 48]
   k: LG(Z)
+  l: [default]
 - p: [56, 55]
   k: BACKSPACE
