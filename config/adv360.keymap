@@ -150,16 +150,19 @@
         copy {
             bindings = <&kp LG(C)>;
             key-positions = <48 49>;
+            layers = <0>;
         };
 
         paste {
             bindings = <&kp LG(V)>;
             key-positions = <49 50>;
+            layers = <0>;
         };
 
         undo {
             bindings = <&kp LG(Z)>;
             key-positions = <47 48>;
+            layers = <0>;
         };
 
         backspace {
