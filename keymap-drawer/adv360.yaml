@@ -72,11 +72,11 @@ layers:
   - PG DN
   - {t: BACKSPACE, h: fn}
   - layers_symbols
-  - LEFT
-  - DOWN
+  - LGUI
+  - LALT
   - UP
-  - DOWN
   - num
+  - LS(LA(LC(LGUI)))
   layers_symbols:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -383,8 +383,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
 combos:
 - p: [41, 42]
   k: {t: (, s: <}
